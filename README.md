@@ -49,7 +49,7 @@ So, by doing this you can connect your local with AWS master by using AWS CodeCo
 - now you can merge branches by creating a pull request from new branch
 - you can also provide Approval Rule Template in which you can fix the number of approval required merge.
 
-## CodeBuild (work likes Jenkins)
+## CodeBuild (works like Jenkins)
 
 - Navigate the console and go to the CodeBuild
 - create a Build Project
@@ -63,4 +63,8 @@ So, by doing this you can connect your local with AWS master by using AWS CodeCo
 - create and select a service role for codebuild service
 - now for buildspec you can create buildspec file or select mine file ( buildspec.yml ) as well
 - create build project by select build
+- your build is created
+- save this in by choose edit/Artifacts
+- select S3/create bucket
+- fill info and update Artifact.
 - 
