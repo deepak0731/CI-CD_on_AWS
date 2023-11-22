@@ -66,5 +66,6 @@ So, by doing this you can connect your local with AWS master by using AWS CodeCo
 - your build is created
 - save this in by choose edit/Artifacts
 - select S3/create bucket
-- fill info and update Artifact.
+- fill info and
+- Update Artifact.
 - 
