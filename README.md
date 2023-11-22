@@ -61,4 +61,6 @@ So, by doing this you can connect your local with AWS master by using AWS CodeCo
 - in the Environment
 - selct managed image with Linux/Ubuntu
 - create and select a service role for codebuild service
+- now for buildspec you can create buildspec file or select mine file ( buildspec.yml ) as well
+- create build project by select build
 - 
