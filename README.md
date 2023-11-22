@@ -33,9 +33,32 @@ In this step, we'll create IAm user.
 
 
 ## Now go on CodeCommit and clone the repository with CLone URL
-
 - Go to copy URL
-- open the local terminal or VS Code
+# open the local Terminal or VS_Code
+
 - enter the git clone < URL >
 - now put your HTTPS Git credential For AWS COdeCommit in popup window
 - create a file here and write a basic code of Index.html for demo purpose
+- now run the command =>
+- git add .
+- git commit -m "msg"
+- git push origin master
+So, by doing this you can connect your local with AWS master by using AWS CodeCommit.
+- Lets create a branch here,
+- git checkout -b Branch_Name
+- now you can merge branches by creating a pull request from new branch
+- you can also provide Approval Rule Template in which you can fix the number of approval required merge.
+
+## CodeBuild (work likes Jenkins)
+
+- Navigate the console and go to the CodeBuild
+- create a Build Project
+- set a project name
+- add a discription ( optional )
+- navigate source eg- github, S3, codecommit
+- choose a repository which we make earlier
+- select master branch
+- in the Environment
+- selct managed image with Linux/Ubuntu
+- create and select a service role for codebuild service
+- 
